@@ -27,6 +27,8 @@ ENV GUROBI_HOME="/opt/gurobi10.0.3/linux64"
 ENV PATH="${GUROBI_HOME}/bin:${PATH}"
 ENV LD_LIBRARY_PATH="${GUROBI_HOME}/lib:${LD_LIBRARY_PATH}"
 
+# ⭐ THE MISSING LINE — enables WLS cloud licensing ⭐
+ENV GRB_USEMLIC=1
 
 # ---------------------------------------------------------
 # Install Python dependencies
