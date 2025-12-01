@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+folium
+pgeocode
+geopy
+streamlit-folium
+matplotlib
+gurobipy==10.0.3
